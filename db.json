@@ -1,14 +1,29 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    {
+        "user_id": "1",
+        "name": "Joao Silva",
+        "username": "joao",
+        "email": "joao@example.com",
+        "university": "Humboldt",
+        "group_name": "group A",
+        "discount_code": "AAAA-AAAA"
+    },
+    {
+        "user_id": "2",
+        "name": "Ricardo Costa",
+        "username": "ricardo",
+        "email": "ricardo@fu.de",
+        "university": "Frei Universität",
+        "group_name": "group B",
+        "discount_code": "BBBB-BBBB"
+    },
+    {
+        "user_id": "3",
+        "name": "Maria Oliveira",
+        "username": "maria",
+        "email": "maria@tu.de",
+        "university": "Technische Universität",
+        "group_name": "group C",
+        "discount_code": "CCCC-CCCC"
+    }
+]
